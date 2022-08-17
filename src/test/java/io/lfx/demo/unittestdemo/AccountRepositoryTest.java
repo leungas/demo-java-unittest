@@ -46,7 +46,6 @@ public class AccountRepositoryTest {
 
    @Test
    @DatabaseSetup("/createAccount.xml")
-
    public void testFindAll() {
         assertEquals(3, StreamSupport.stream(this.accounts.findAll().spliterator(), false).count());
    }
