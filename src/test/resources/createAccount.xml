@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+    <Account
+        id="1"
+        name="Test Account A"
+        enabled="true"
+    />
+    <Account
+        id="2"
+        name="Test Account B"
+        enabled="true"
+    />
+    <Account
+        id="3"
+        name="Test Account C"
+        enabled="false"
+    />        
+</dataset>
